@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leilão Online</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Leilões Online</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Leilões</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="leilao-destaque">
+      <h2>Leilão em Destaque</h2>
+      <div class="item">
+        <img src="img/item1.jpg" alt="Item em leilão" />
+        <h3>Veículo 2018 - Modelo X</h3>
+        <p>Lance atual: R$ <span id="lance">18.000</span></p>
+        <button onclick="aumentarLance()">Dar um Lance</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Leilões Online. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
